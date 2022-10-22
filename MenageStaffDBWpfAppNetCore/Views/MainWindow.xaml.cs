@@ -1,4 +1,5 @@
 ﻿
+using MenageStaffDBWpfAppNetCore.ViewModels;
 using System;
 using System.Reflection;
 using System.Windows;
@@ -14,6 +15,7 @@ namespace MenageStaffDBWpfAppNetCore.Views
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new DataManageViewModel();
         }
     }
 }
