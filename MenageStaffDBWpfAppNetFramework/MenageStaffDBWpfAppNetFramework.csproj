@@ -57,6 +57,21 @@
     </ApplicationDefinition>
     <Compile Include="Models\DataWorker.cs" />
     <Compile Include="ViewModels\DataManageViewModel.cs" />
+    <Compile Include="Views\MasageViewWindow.xaml.cs">
+      <DependentUpon>MasageViewWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\EditUserWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EditPositionWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EditDapartmentWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\AddNewDapartmentWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -77,6 +92,15 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Views\EditUserWindow.xaml.cs">
+      <DependentUpon>EditUserWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditPositionWindow.xaml.cs">
+      <DependentUpon>EditPositionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditDapartmentWindow.xaml.cs">
+      <DependentUpon>EditDapartmentWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\AddNewDapartmentWindow.xaml.cs">
       <DependentUpon>AddNewDapartmentWindow.xaml</DependentUpon>
     </Compile>
@@ -90,6 +114,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\MasageViewWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Department.cs" />
