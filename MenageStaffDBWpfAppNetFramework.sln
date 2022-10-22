@@ -5,6 +5,12 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenageStaffDBWpfAppNetFramework", "MenageStaffDBWpfAppNetFramework\MenageStaffDBWpfAppNetFramework.csproj", "{83F6B169-2124-4D96-8A73-F09E236EEDB2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{DF28222F-BB82-4504-BA45-DDC150DB27F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFAndEntityFramework", "WPFAndEntityFramework", "{D5FF0A67-91B0-486E-BA2E-8986832CAAEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenageStaffDBWpfAppNetCore", "MenageStaffDBWpfAppNetCore\MenageStaffDBWpfAppNetCore.csproj", "{1098FAA8-CD82-4D37-BBD8-426ADA45FA32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{83F6B169-2124-4D96-8A73-F09E236EEDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83F6B169-2124-4D96-8A73-F09E236EEDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F6B169-2124-4D96-8A73-F09E236EEDB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1098FAA8-CD82-4D37-BBD8-426ADA45FA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1098FAA8-CD82-4D37-BBD8-426ADA45FA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1098FAA8-CD82-4D37-BBD8-426ADA45FA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1098FAA8-CD82-4D37-BBD8-426ADA45FA32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5FF0A67-91B0-486E-BA2E-8986832CAAEE} = {DF28222F-BB82-4504-BA45-DDC150DB27F8}
+		{1098FAA8-CD82-4D37-BBD8-426ADA45FA32} = {D5FF0A67-91B0-486E-BA2E-8986832CAAEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC606B3E-237B-420C-AA8E-BB976E0CC75A}

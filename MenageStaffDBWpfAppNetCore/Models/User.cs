@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MenageStaffDBWpfAppNetFramework.Models
+namespace MenageStaffDBWpfAppNetCore.Models
 {
     public class User
     {

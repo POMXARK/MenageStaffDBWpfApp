@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Data\ApplicationContext.cs" />
     <Compile Include="Models\DataWorker.cs" />
     <Compile Include="ViewModels\DataManageViewModel.cs" />
     <Compile Include="Views\MasageViewWindow.xaml.cs">

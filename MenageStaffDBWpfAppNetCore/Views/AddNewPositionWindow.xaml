@@ -1,0 +1,29 @@
+﻿<Window x:Class="MenageStaffDBWpfAppNetCore.Views.AddNewPositionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenageStaffDBWpfAppNetCore.Views"
+        mc:Ignorable="d"
+        Title="AddNewPositionWindow" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="200">
+            <TextBlock Text="Name"/>
+            <TextBox Text=""/>
+            <TextBlock Text="Salary"/>
+            <TextBox Text=""/>
+            <TextBlock Text="Max of vacancies"/>
+            <TextBox Text=""/>
+            <TextBlock Text="Department"/>
+            <ComboBox/>
+        </StackPanel>
+        <Button Grid.Row="1" Content="Add position"/>
+    </Grid>
+</Window>
