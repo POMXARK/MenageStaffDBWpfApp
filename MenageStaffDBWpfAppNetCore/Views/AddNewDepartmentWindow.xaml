@@ -1,11 +1,11 @@
-﻿<Window x:Class="MenageStaffDBWpfAppNetCore.Views.EditDapartmentWindow"
+﻿<Window x:Class="MenageStaffDBWpfAppNetCore.Views.AddNewDepartmentWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MenageStaffDBWpfAppNetCore.Views"
         mc:Ignorable="d"
-        Title="EditDapartmentWindow" Height="300" Width="300">
+        Title="AddNewDepartmentWindow" Height="300" Width="300">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -15,9 +15,9 @@
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
                     Width="200">
-            <TextBlock Text="New name"/>
+            <TextBlock Text="Name"/>
             <TextBox Text=""/>
         </StackPanel>
-        <Button Grid.Row="1" Content="Edit department"/>
+        <Button Grid.Row="1" Content="Add department"/>
     </Grid>
 </Window>

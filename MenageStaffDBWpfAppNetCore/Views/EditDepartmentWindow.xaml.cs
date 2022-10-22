@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace MenageStaffDBWpfAppNetCore.Views
 {
     /// <summary>
-    /// Interaction logic for AddNewDapartmentWindow.xaml
+    /// Interaction logic for EditDepartmentWindow.xaml
     /// </summary>
-    public partial class EditDapartmentWindow : Window
+    public partial class EditDepartmentWindow : Window
     {
-        public EditDapartmentWindow()
+        public EditDepartmentWindow()
         {
             InitializeComponent();
         }
